@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/globalStyles.css">
+    <link rel="stylesheet" href="./src/styles/input.css">
+    <link rel="stylesheet" href="./src/styles/label.css">
+    <link rel="stylesheet" href="./src/styles/modal.css">
+    <link rel="stylesheet" href="./src/styles/index.css">
+    <script defer src="./src/scripts/modal.js"></script>
+    <title>Tree House</title>
+</head>
+
+<body>
+    <main>
+        <section class="main__background1">
+            <div class="main__container1">
+                <figure>
+                    <img src="./src/assets/logo.jpg" alt="logo da marca">
+                </figure>
+                <h1>
+                    The nature is your home
+                </h1>
+            </div>
+        </section>
+        <section class="main__background2">
+            <div class="main__container2">
+                <h2>Login</h2>
+                <form>
+                    <label class="label" for="email">Digite seu email:</label>
+                    <input class="input" id="email" type="text" placeholder="Email">
+                    <label for="password" class="label">Digite sua senha:</label>
+                    <input class="input" id="password" type="text" placeholder="Senha">
+                </form>
+                <h3 class="esqueciSenha">Esqueci minha senha</h3>
+                <button>Entrar</button>
+            </div>
+        </section>
+        <section class="modal hidden">
+            <div>
+                <h2>Recuperação de senha</h2>
+                <button class="buttonClose">X&nbsp&nbsp&nbsp&nbsp</button>
+                <p>Para recuperar a sua senha, digite seu email abaixo:</p>
+                <input class="input" type="text" placeholder="Digite o seu email cadastrado">
+                <button>Enviar</button>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
